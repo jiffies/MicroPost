@@ -23,7 +23,7 @@
 			"file": "/home/lcq/sample_app/spec/requests/static_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1766,
+				"buffer_size": 902,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,15 +39,37 @@
 			"file": "/home/lcq/sample_app/app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 283,
+				"buffer_size": 379,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "<%= provide :title, \"Contact Us\" %>\n<h1>Contact Us</h1>\n\n",
 			"file": "/home/lcq/sample_app/app/views/static_pages/contact.html.erb",
+			"file_size": 55,
+			"file_write_time": 1334322660000000,
 			"settings":
 			{
-				"buffer_size": 55,
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"center hero-unit\">\n	<h1>Welcome to the Sample App</h1>\n<h2>\n    This is the home page for the\n    <a href=\"http://railstutorial.org/\">Ruby on Rails Tutorial</a>\n    sample application.\n  </h2>\n<%= link_to \"Sign up now!\", '#',class: \"btn btn-large btn-primary\" %>\n</div>\n<%= link_to image_tag(\"rails.png\",alt: \"Rails\"), 'http://rubyonrails.org/' %>\n",
+			"file": "/home/lcq/sample_app/app/views/static_pages/home.html.erb",
+			"file_size": 360,
+			"file_write_time": 1334406834000000,
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
+			"settings":
+			{
+				"buffer_size": 1265,
 				"line_ending": "Unix"
 			}
 		}
@@ -55,11 +77,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 76.0,
 		"selected_items":
 		[
+			[
+				":cur",
+				"Set Syntax: Clojure"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"Snippet: ",
+				"Snippet: form_tag"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -76,6 +110,8 @@
 	},
 	"file_history":
 	[
+		"/home/lcq/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/lcq/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/lcq/桌面/hello.html"
 	],
 	"find":
@@ -111,7 +147,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -119,15 +155,15 @@
 					"file": "/home/lcq/sample_app/spec/requests/static_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1766,
+						"buffer_size": 902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1315,
-								1315
+								0,
+								0
 							]
 						],
 						"settings":
@@ -137,7 +173,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -173,15 +209,15 @@
 					"file": "/home/lcq/sample_app/app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 283,
+						"buffer_size": 379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								0,
+								0
 							]
 						],
 						"settings":
@@ -199,15 +235,15 @@
 					"file": "/home/lcq/sample_app/app/views/static_pages/contact.html.erb",
 					"settings":
 					{
-						"buffer_size": 55,
+						"buffer_size": 57,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								57,
+								57
 							]
 						],
 						"settings":
@@ -216,6 +252,60 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/lcq/sample_app/app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
+					"settings":
+					{
+						"buffer_size": 1265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1265,
+								1265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1097.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
