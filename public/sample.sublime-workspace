@@ -39,7 +39,7 @@
 			"file": "/home/lcq/sample_app/app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 426,
 				"line_ending": "Unix"
 			}
 		},
@@ -69,7 +69,23 @@
 			"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
 			"settings":
 			{
-				"buffer_size": 1265,
+				"buffer_size": 2172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lcq/sample_app/config/environments/test.rb",
+			"settings":
+			{
+				"buffer_size": 1692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lcq/sample_app/app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 174,
 				"line_ending": "Unix"
 			}
 		}
@@ -147,7 +163,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -209,7 +225,7 @@
 					"file": "/home/lcq/sample_app/app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 426,
 						"regions":
 						{
 						},
@@ -287,15 +303,15 @@
 					"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
 					"settings":
 					{
-						"buffer_size": 1265,
+						"buffer_size": 2172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1265,
-								1265
+								2172,
+								2172
 							]
 						],
 						"settings":
@@ -305,7 +321,62 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1097.0,
+						"translation.y": 2457.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/lcq/sample_app/config/environments/test.rb",
+					"settings":
+					{
+						"buffer_size": 1692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1687,
+								1687
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/lcq/sample_app/app/views/users/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
