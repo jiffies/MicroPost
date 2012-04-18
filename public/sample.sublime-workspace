@@ -23,7 +23,7 @@
 			"file": "/home/lcq/sample_app/spec/requests/static_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 902,
+				"buffer_size": 914,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "/home/lcq/sample_app/app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 426,
+				"buffer_size": 524,
 				"line_ending": "Unix"
 			}
 		},
@@ -69,7 +69,7 @@
 			"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
 			"settings":
 			{
-				"buffer_size": 2172,
+				"buffer_size": 2563,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +171,7 @@
 					"file": "/home/lcq/sample_app/spec/requests/static_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 902,
+						"buffer_size": 914,
 						"regions":
 						{
 						},
@@ -225,7 +225,7 @@
 					"file": "/home/lcq/sample_app/app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 426,
+						"buffer_size": 524,
 						"regions":
 						{
 						},
@@ -303,15 +303,15 @@
 					"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
 					"settings":
 					{
-						"buffer_size": 2172,
+						"buffer_size": 2563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2172,
-								2172
+								2563,
+								2563
 							]
 						],
 						"settings":
@@ -321,7 +321,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2457.0,
+						"translation.y": 2712.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
