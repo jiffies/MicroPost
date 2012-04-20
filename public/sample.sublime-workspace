@@ -31,7 +31,7 @@
 			"file": "/home/lcq/sample_app/app/views/static_pages/about.html.erb",
 			"settings":
 			{
-				"buffer_size": 53,
+				"buffer_size": 50,
 				"line_ending": "Unix"
 			}
 		},
@@ -69,7 +69,7 @@
 			"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
 			"settings":
 			{
-				"buffer_size": 2563,
+				"buffer_size": 2895,
 				"line_ending": "Unix"
 			}
 		},
@@ -85,7 +85,7 @@
 			"file": "/home/lcq/sample_app/app/views/users/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 174,
+				"buffer_size": 398,
 				"line_ending": "Unix"
 			}
 		}
@@ -199,15 +199,15 @@
 					"file": "/home/lcq/sample_app/app/views/static_pages/about.html.erb",
 					"settings":
 					{
-						"buffer_size": 53,
+						"buffer_size": 50,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								0,
+								0
 							]
 						],
 						"settings":
@@ -303,15 +303,15 @@
 					"file": "/home/lcq/sample_app/app/assets/stylesheets/custom.css.scss",
 					"settings":
 					{
-						"buffer_size": 2563,
+						"buffer_size": 2895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2563,
-								2563
+								2895,
+								2895
 							]
 						],
 						"settings":
@@ -321,7 +321,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2712.0,
+						"translation.y": 3120.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -359,7 +359,7 @@
 					"file": "/home/lcq/sample_app/app/views/users/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 174,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
@@ -373,7 +373,8 @@
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -1,0 +1,11 @@
+<li>
+	<span class="content"><%= micropost.content %></span>
+	<span class="timestamp">
+		发布于<%= time_ago_in_words_for_zh(micropost.created_at) %>以前。
+	</span>
+	<% if current_user?(micropost.user) %>
+		<%= link_to "delete", micropost, method: :delete,
+					confirm: "你确定删除吗？",
+					title: micropost.content %>
+	<% end %>
+</li>
