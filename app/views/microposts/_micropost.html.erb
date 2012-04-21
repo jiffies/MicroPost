@@ -1,5 +1,5 @@
 <li>
-	<span class="content"><%= micropost.content %></span>
+	<span class="content"><%= wrap micropost.content %></span>
 	<span class="timestamp">
 		发布于<%= time_ago_in_words_for_zh(micropost.created_at) %>以前。
 	</span>
