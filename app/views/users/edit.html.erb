@@ -5,18 +5,18 @@
 	<div class="span6 offset3">
 	<%= form_for(@user) do |f| %>
 		<%= render 'shared/error_messages',object: f.object %>
-		<%= f.label :name %>
+		<%= f.label :name,"姓名" %>
 		<%= f.text_field :name %>
 	
-		<%= f.label :email %>
+		<%= f.label :email,"Email" %>
 		<%= f.text_field :email %>
-		<%= f.label :password %>
+		<%= f.label :password ,"密码"%>
       <%= f.password_field :password %>
 
-      <%= f.label :password_confirmation, "Confirm Password" %>
+      <%= f.label :password_confirmation, "密码确认" %>
       <%= f.password_field :password_confirmation %>
 
-      <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
+      <%= f.submit "保存变更", class: "btn btn-large btn-primary" %>
     <% end %>
 
     <%= gravatar_for @user %>

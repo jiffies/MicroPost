@@ -6,7 +6,7 @@ module ApplicationHelper
 	MOUTH = 30*DAY
 	YEAR = 12*MOUTH
 	def full_title(page_title)
-		base_title = "Ruby on Rails Tutorial Sample App"
+		base_title = "扯淡团"
 		if page_title.empty?
 			base_title
 		else
