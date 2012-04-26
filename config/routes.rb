@@ -1,5 +1,8 @@
 SampleApp::Application.routes.draw do
-	resources :microposts, only: [:create, :destroy]
+
+	resources :microposts, only: [:create, :destroy] do
+		resources :replies
+	end
 	resources :relationships, only: [:create, :destroy]
 	
 

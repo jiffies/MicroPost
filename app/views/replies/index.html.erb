@@ -1,0 +1,21 @@
+<h1>回复</h1>
+<div class="replies-index">
+	<div class="micropost">
+	<%= gravatar_for(@user, size:52) %>
+		<p><%= @user.name %>:</p>
+		<p><%= @micropost.content %></p>
+		<p>发布于<%= time_ago_in_words_for_zh(@micropost.created_at) %>以前</p>
+	</div>
+	<div "reply-form">
+		<%= form_for(@reply,url:micropost_replies_path(@micropost)) do |f|%>
+			<%= f.text_area :content %>
+			<%= f.submit "回复",class: "btn btn-large btn-primary" %>
+		<% end %>
+	
+	</div>
+	<div class="replies-list">
+		<ol>
+			<%= render @replies %>
+		</ol>
+	</div>
+</div>

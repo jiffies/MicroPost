@@ -1,0 +1,9 @@
+<li>
+<p><%= reply.user.name %></p>
+<p><%= reply.content %>	</p>
+<p>回复于<%= time_ago_in_words_for_zh(reply.created_at) %>以前</p>
+<%= link_to "删除", micropost_reply_path(reply.micropost,reply),
+			confirm: "Are you sure?",
+			method: :delete %>
+
+</li>

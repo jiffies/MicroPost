@@ -7,6 +7,7 @@
   <span class="timestamp">
     发布于<%= time_ago_in_words_for_zh(feed_item.created_at) %>以前。
   </span>
+	<%= link_to "回复(#{feed_item.replies.count})", micropost_replies_path(feed_item) %>
 	<% if current_user?(feed_item.user) %>
     <%= link_to "delete", feed_item, method:  :delete,
                                      confirm: "You sure?",
