@@ -13,6 +13,7 @@ class RepliesController < ApplicationController
 		micropost = Micropost.find_by_id(params[:micropost_id])
 		if micropost
 			micropost.replies << reply
+			send_notify([micropost.user],reply)
 			redirect_to micropost_replies_path(micropost)
 		else
 			redirect_to root_path, notice[:error]="reply failed"

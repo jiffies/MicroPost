@@ -5,6 +5,7 @@ class UsersController < ApplicationController
 	before_filter :correct_user, only: [ :edit, :update]
 	before_filter :admin_user ,only: :destroy
 
+
 	def following
     @title = "关注"
     @user = User.find(params[:id])

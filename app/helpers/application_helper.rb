@@ -36,4 +36,5 @@ module ApplicationHelper
 			return "#{diff.to_i}秒钟"	
 		end
 	end
+	
 end

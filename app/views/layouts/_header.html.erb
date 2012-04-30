@@ -4,6 +4,14 @@
       <%= link_to "扯淡团", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
+					<% if signed_in? %>
+					<li><a href=<%= user_notifications_path(current_user) %>>
+						<!--<span class=<%= current_user.notifications.size>0? "badge badge-important":"badge" %>>
+						<%= current_user.notifications.size %></span>-->
+						<%= content_tag(:span, @notify_read_count,class:@notify_read_count>0? "badge badge-important":"badge") %>
+
+							</a></li>
+					<% end %>
           <li><%= link_to "首页", root_path %></li>
           <li><%= link_to "帮助", help_path %></li>
           <% if signed_in? %>

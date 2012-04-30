@@ -1,0 +1,9 @@
+<h1>发送私信</h1>
+<div class="message">
+	<%= form_for(@message) do |f| %>
+		<%= f.label :receiver, "收信人" %>
+		<%= f.text_field :receiver %>
+		<%= f.text_area :content %>
+		<%= f.submit "发送", class:"btn btn-large btn-primary" %>
+	<% end %>
+</div>

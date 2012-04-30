@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-gem 'bootstrap-sass', '2.0.0'
+gem 'bootstrap-sass', '2.0.2'
 
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.5'

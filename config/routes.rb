@@ -1,5 +1,7 @@
 SampleApp::Application.routes.draw do
 
+	resources :messages
+	
 	resources :microposts, only: [:create, :destroy] do
 		resources :replies
 	end
@@ -14,6 +16,8 @@ SampleApp::Application.routes.draw do
 		member do
 			get :following, :followers
 		end
+		
+		resources :notifications, only: [:index, :show]
 	end
 	
 	match '/signup', to: "users#new"

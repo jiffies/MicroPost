@@ -1,7 +1,10 @@
 @import "bootstrap";
 
+@import "bootstrap-responsive";
 /* mixins, variables, etc. */
-
+.badge-important {
+	background-color: #b94a48
+}
 $grayMediumLight: #eaeaea;
 
 /* universal */
@@ -11,6 +14,7 @@ html {
 }
 
 body {
+	background-color: #87CEFA;
   padding-top: 60px;
 }
 

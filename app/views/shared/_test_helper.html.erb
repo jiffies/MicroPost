@@ -1,0 +1,22 @@
+<%= check_box_tag(:dog,"jinmao") %>
+<%= label_tag(:dog, "I own a dog") %>
+<%= check_box_tag(:cat) %>
+<%= label_tag(:cat, "I own a cat") %>
+
+<%= radio_button_tag(:age, "child") %>
+<%= label_tag(:age_child, "I am younger than 21") %>
+<%= radio_button_tag(:age, "adult") %>
+<%= label_tag(:age_adult, "I'm over 21") %>
+
+<%= text_area_tag(:message, "Hi, nice site", :size => "24x6") %>
+<%= password_field_tag(:password) %>
+<%= hidden_field_tag(:parent_id, "5") %>
+<%= search_field(:user, :name) %>
+
+<span class="label label-important">Important</span>
+<span class="badge">1</span>
+	<span class="badge badge-success">2</span>
+<span class="badge badge-warning">4</span>
+<span class="badge badge-important">6</span>
+<span class="badge badge-info">8</span>
+<span class="badge badge-inverse">10</span>
